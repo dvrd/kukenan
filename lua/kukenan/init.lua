@@ -4,10 +4,6 @@ local config = require("kukenan.config")
 
 local M = {}
 
-function M._load()
-  M.load()
-end
-
 ---@param opts Config|nil
 function M.load(opts)
   if opts then

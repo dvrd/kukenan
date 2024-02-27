@@ -1,1 +1,1 @@
-require("kukenan")._load()
+require("kukenan").load()
