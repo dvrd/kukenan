@@ -5,8 +5,8 @@ local M = {}
 ---@class Palette
 M.default = {
   none = "NONE",
-  bg = "#1a1b26",
-  bg_dark = "#16161e",
+  bg = "#191919",
+  bg_dark = "#1a1b26",
   bg_highlight = "#292e42",
   terminal_black = "#414868",
   fg = "#c0caf5",
@@ -52,7 +52,6 @@ function M.setup(opts)
   local colors = M.default
 
   util.bg = colors.bg
-  util.day_brightness = config.options.day_brightness
 
   colors.diff = {
     add = util.darken(colors.green2, 0.15),
@@ -70,7 +69,7 @@ function M.setup(opts)
   colors.bg_popup = colors.bg_dark
   colors.bg_statusline = colors.bg_dark
 
-  -- Sidebar and Floats are configurable
+  -- Sidebar and Floa16161ets are configurable
   colors.bg_sidebar = config.options.styles.sidebars == "transparent" and colors.none
     or config.options.styles.sidebars == "dark" and colors.bg_dark
     or colors.bg
