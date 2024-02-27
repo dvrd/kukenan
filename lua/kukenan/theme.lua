@@ -861,11 +861,6 @@ function M.setup()
     -- StatusLineNC
     theme.highlights.StatusLineNC = inactive
 
-    -- LuaLine
-    for _, section in ipairs({ "a", "b", "c" }) do
-      theme.defer["lualine_" .. section .. "_inactive"] = inactive
-    end
-
     -- mini.statusline
     theme.highlights.MiniStatuslineInactive = inactive
   end
