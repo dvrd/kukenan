@@ -464,7 +464,7 @@ function M.setup()
     -- NvimTree
     NvimTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
     NvimTreeWinSeparator = {
-      fg = options.styles.sidebars == "transparent" and c.border or c.bg_sidebar,
+      fg = c.border or c.bg_sidebar,
       bg = c.bg_sidebar,
     },
     NvimTreeNormalNC = { fg = c.fg_sidebar, bg = c.bg_sidebar },

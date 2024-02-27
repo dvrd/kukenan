@@ -69,14 +69,8 @@ function M.setup(opts)
   colors.bg_popup = colors.bg_dark
   colors.bg_statusline = colors.bg_dark
 
-  -- Sidebar and Floa16161ets are configurable
-  colors.bg_sidebar = config.options.styles.sidebars == "transparent" and colors.none
-    or config.options.styles.sidebars == "dark" and colors.bg_dark
-    or colors.bg
-
-  colors.bg_float = config.options.styles.floats == "transparent" and colors.none
-    or config.options.styles.floats == "dark" and colors.bg_dark
-    or colors.bg
+  colors.bg_sidebar = colors.none
+  colors.bg_float = colors.none
 
   colors.bg_visual = util.darken(colors.green, 0.4)
   colors.bg_search = colors.green
