@@ -1,4 +1,4 @@
-# 🏙 Tokyo Night
+# Kukenan
 
 A darker [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org) blatantly copied from [tokyonight](https://github.com/folke/tokyonight.nvim).
