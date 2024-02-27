@@ -1,11 +1,9 @@
 # Kukenan
 
-![Tepuy_Kukenan_rio_Tek_Canaima_Venezuela_03](https://github.com/dvrd/kukenan.nvim/assets/126793278/8a892d1f-d0f0-438f-bcfd-12c4d1eb1635)
-
 A darker [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org) blatantly copied from [tokyonight](https://github.com/folke/tokyonight.nvim).
 
-![image](https://github.com/dvrd/kukenan.nvim/assets/126793278/1cb324a2-0c3c-4916-88cd-65a694a50d9b)
+![screenshot](https://github.com/dvrd/kukenan.nvim/assets/126793278/da4dd291-ec77-485d-8da1-560d4930d562)
 
 ## ✨ Features
 
